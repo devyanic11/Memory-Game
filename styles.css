@@ -3,6 +3,24 @@ body {
     background-color: #ECF9FF;
 }
 
+h2 {
+    margin-top: 100px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.5rem;
+    color: #fbaf71;
+}
+
+.how-to-play {
+    border: ridge;
+}
+
+p {
+    margin: 2% 5%;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: rgb(74, 73, 73);
+}
+
 #level-title {
     font-family: 'Shantell Sans', cursive;
     font-size: 3rem;
