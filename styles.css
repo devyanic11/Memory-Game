@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color: #ECF9FF;
+}
+
+#level-title {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 3rem;
+    margin: 5%;
+    color: #fbaf71;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    border-radius: 20%;
+}
+
+.start-button {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10%;
+    background-color: #FFE7CC;
+    box-shadow: 2px 2px 5px 1px rgba(133, 132, 132, 0.8);
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.red {
+    background-image: url("fightened.jpg");
+    background-size: 100%;
+}
+
+.green {
+    background-image: url("confused.jpg");
+    background-size: 100%;
+}
+
+.blue {
+    background-image: url("laugh.jpg");
+    background-size: 100%;
+}
+
+.yellow {
+    background-image: url("shocked.jpg");
+    background-size: 100%;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
